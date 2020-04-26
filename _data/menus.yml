@@ -1,8 +1,12 @@
 main:
   - identifier: layouts
     title: Page Layouts
-    url: '#'
+    url: "#"
     weight: 2
+  - identifier: store
+    title: Store
+    weight: 2
+    url: store
 layouts:
   - identifier: normal1
     title: Left Sidebar
@@ -18,27 +22,27 @@ layouts:
     weight: 3
   - identifier: submenu
     title: Submenu
-    url: '#'
+    url: "#"
     weight: 4
 submenu:
   - identifier: normal4
     title: Option One
-    url: '#'
+    url: "#"
     weight: 1
   - identifier: normal5
     title: Option Two
-    url: '#'
+    url: "#"
     weight: 2
   - identifier: normal6
     title: Option Three
-    url: '#'
+    url: "#"
     weight: 3
   - identifier: normal7
     title: Option Four
-    url: '#'
+    url: "#"
     weight: 4
 footer:
   - identifier: normal8
     title: Made with Stackbit
-    url: 'https://www.stackbit.com'
+    url: https://www.stackbit.com
     weight: 4
